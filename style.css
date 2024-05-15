@@ -1,0 +1,295 @@
+html,
+body {
+  height: 100%;
+
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+}
+
+a {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  transition: opacity 0.125s linear;
+
+  &:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.125s linear;
+  }
+
+  &:visited {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.custom-navbar {
+  width: 100%;
+  height: 60px;
+  background-color: transparent !important;
+  z-index: 1111;
+}
+
+.nav-container {
+  height: 60px;
+  min-width: 100%;
+  color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  transition: background-color 0.5s linear;
+  padding: 3rem 2rem;
+  top: 0;
+  position: fixed;
+  color: white;
+}
+
+.solid-nav {
+  background-color: #292929;
+  transition: background-color 2s;
+  color: white;
+  min-width: 100%;
+}
+
+.second-pic {
+  position: relative;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  margin-left: 3.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 0%;
+
+}
+
+.nav-link {
+  color: white;
+}
+
+.grid-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0.8rem;
+}
+
+.grid-container .grid-icon {
+  margin-left: 4rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.grid-container button {
+  width: 10rem;
+  height: 3rem;
+  margin-left: 2rem;
+  border: none;
+  font-weight: bold;
+}
+
+.grid-container button:hover {
+  background-color: red;
+}
+
+.header-banner {
+  min-height: 300px;
+  position: absolute;
+  top: 0;
+  overflow: auto;
+  padding: 0px;
+}
+
+.nav-row {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 18px;
+
+  .nav-logo {
+    display: inline-block;
+    font-weight: 900;
+  }
+
+  .nav-controls {
+    float: right;
+
+    a {
+      padding-left: 20px;
+    }
+  }
+}
+
+
+
+/* @media screen and (min-width: 1200px) {
+
+  nav .container,
+  nav .container-lg,
+  nav .container-md,
+  nav .container-sm,
+  nav .container-xl {
+    max-width: 100%;
+  }
+
+
+} */
+
+/* <!-- first container --> */
+
+.gallary-images {
+  position: relative;
+  padding: 2rem;
+}
+
+.img {
+
+  min-height: 500px;
+}
+
+.img-one {
+  background: red;
+  height: 400px;
+  width: 400px;
+}
+
+.img-two {
+  background: rgb(29, 6, 243);
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  border: 8px solid #fff;
+}
+
+
+.matter {
+
+  position: absolute;
+  top: 10%;
+  min-height: 500px;
+}
+
+.matter button {
+  width: 10rem;
+  height: 3rem;
+
+  border: none;
+  font-weight: bold;
+}
+
+/* <!-- second container --> */
+.details {
+  background-color: #F5F5F5;
+  min-height: 500px;
+  min-width: 100%;
+  margin-top: 30px;
+
+}
+
+.profile {
+  padding: 80px 0px 0px 10px;
+}
+
+.profile h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+span h1 {
+  color: red;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+/* carosoual */
+.social-media {
+  overflow: hidden;
+  margin-top: 3rem;
+}
+
+.slick-card {
+  display: flex;
+  justify-content: center !important;
+  height: 400px;
+  margin: 1rem;
+  text-align: center;
+  align-items: center;
+  padding: 1rem 1.5rem;
+
+}
+
+.slick-inner {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin-bottom: 1.5em;
+}
+
+
+
+/* content-scrooling */
+#scroll_news {
+  font-family: Book Antiqua;
+  color: black;
+  font-weight: bolder;
+}
+
+#scroll_news>div {
+  width: 99%;
+  height: 10rem;
+  font-size: 100px;
+}
+
+#scroll_news>div>div {
+  float: left;
+  width: 20%;
+  /* Adjust the width as needed */
+}
+
+#scroll_news>div>div:last-child {
+  float: right;
+}
+
+#scroll_news>div>div:hover {
+  cursor: pointer;
+}
+
+/* cards */
+
+.production-cards {
+  padding: 1rem;
+  margin-top: 4rem;
+}
+
+.production-card-content {
+  background: white;
+  border: 1px solid grey;
+  height: 350px;
+  text-align: center;
+  padding: 50px 15px;
+}
+
+.production-icons {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: black;
+  text-align: center;
+  margin: auto;
+
+}
+
+.production-content {
+  margin-top: 20px;
+}
